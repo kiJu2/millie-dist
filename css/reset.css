@@ -1,0 +1,191 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+/********************************************************************/
+/* root */
+/********************************************************************/
+:root {
+	/*color*/
+	--color-black:#000;
+	--color-white:#fff;
+	--color-purple-6:#A451F7;
+	--color-gray-9:#8B8B8B;
+	--color-gray-10:#6F6F6F;
+	--color-gray-14:#242424;
+	
+	/*shadow*/
+	--shadow-floating: 0px 2px 8px 0px rgba(0, 0, 0, 0.10), 0px 8px 20px 0px rgba(0, 0, 0, 0.10);
+	
+	/*dim*/
+	--bg-dim-3:rgba(0,0,0,.3);
+	--bg-dim-7:rgba(0,0,0,.7);
+}
+
+/* --------------------------------------------------------------------------------
+	RESET
+--------------------------------------------------------------------------------- */
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+html, body, div, span, object, iframe, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main, summary, h1, h2, h3, h4, h5, h6, p, blockquote, pre, form, fieldset, legend, input, label, button, textarea, select, textarea, input, table, caption, tbody, tfoot, thead, tr, th, td, b, i, dl, dt, dd, ol, ul, li, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, time, mark, audio, video, a {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 14px;
+	letter-spacing: -0.04em;
+	/*font-size:62.5%;font-size:68.75%;font-size:75%;font-size:81.25%;*/
+	overflow-y: scroll;
+	-ms-touch-action: none;
+}
+body {
+	background: #fff;
+	line-height: 1.5;
+	color: #000;
+	word-break: break-all;
+}
+body, select, input, button, textarea, pre {
+	font-size: 14px;
+	color:var(--color-black);
+	font-weight: 400;
+	letter-spacing: -0.6px;
+}
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main, summary {
+	display: block;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+cite, em, dfn, address {
+	font-style: normal;
+}
+fieldset, iframe {
+	border: 0 none;
+}
+ins {
+	text-decoration: none;
+}
+mark {
+	background: none !important;
+}
+del {
+	text-decoration: line-through;
+}
+ol, ul, li {
+	list-style: none;
+}
+img, fieldset, iframe {
+	border: 0 none;
+}
+img, video, audio, object, embed, iframe {
+	width: 100%;
+	height: auto;
+}
+legend, caption {
+	visibility: hidden;
+	font-size: 0;
+	width: 0;
+	height: 0;
+	line-height: 0;
+}
+legend {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+i, em, address {
+	font-style: normal;
+}
+table {
+	width: 100%;
+	empty-cells: show;
+	/*border-collapse: separate;*/
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+table th {
+	font-weight: normal;
+}
+table caption {
+	height: 0;
+	font-size: 0.1em;
+	color: #fff;
+	opacity: 0;
+}
+a, a:visited {
+	color: inherit;
+}
+a:link, a:hover {
+	text-decoration: none;
+}
+hr {
+	margin:0;
+	border:0;
+	border-top:1px solid #E5E8EB;
+}
+button {
+	border: 0;
+	border-radius: 0;
+	background: 0 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+button {
+	-webkit-appearance: none;
+}
+/********************************************************************/
+/* etc */
+/********************************************************************/
+.hide{
+    display: none !important;
+}
+.show{
+    display: flex !important;
+}
+a, button {
+	cursor: pointer;
+}
+.dim_full {
+	width:100%;
+	height:100vh;
+	background: var(--bg-dim-3);
+	position: absolute;
+}
+.none {
+	display: none !important;
+}
+.pc_none_tab_on {
+	display: none !important;
+}
+@media (max-width: 959px) {
+	.pc_none_tab_on {
+		display: block !important;
+	}
+}
+@media (max-width: 599px) {
+	.m_none {
+			display: none !important;
+		}
+}
+
+
+
+

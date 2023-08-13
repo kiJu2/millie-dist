@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+    <title>self-blame</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.dataset.theme = 'dark'
+    }
+    ;window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+        document.documentElement.dataset.theme = event.matches ? 'dark' : 'light'
+    });</script>
+  
+</head>
+<body>
+<div id="root"></div>
+<div id="portal"></div>
+
+  <script id="vite-legacy-polyfill" src="/assets/polyfills-legacy.6e7114ea.js"></script>
+  <script id="vite-legacy-entry" data-src="/assets/index-legacy.c11e150b.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+</body>
+</html>
